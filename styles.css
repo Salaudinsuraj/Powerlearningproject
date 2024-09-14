@@ -1,0 +1,118 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e5f5; /* Light purple background */
+    color: #4a2c2a; /* Deep brown text color */
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #6a1b9a; /* Dark purple header background */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Paragraph and Heading styling */
+p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #4a2c2a;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    background-color: #f3e5f5; /* Light purple form background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 16px;
+    color: #4a2c2a;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #4a2c2a;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #6a1b9a; /* Dark purple button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4a148c; /* Slightly darker on hover */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4a2c2a; /* Dark brown header */
+    color: white;
+}
+
+td {
+    background-color: #f3e5f5; /* Light purple for table cells */
+}
+
+/* Image styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Link styling */
+a {
+    color: #6a1b9a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
